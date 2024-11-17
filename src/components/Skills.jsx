@@ -19,10 +19,10 @@ const Skills = () => {
       className="bg-white px-[13rem] dark:bg-gray-900 py-20 flex"
     >
       <div className="container ">
-        <h2 className="text-4xl font-bold ml-[33rem] mb-8 dark:text-white text-purple-500">
+        <h2 className="text-4xl font-bold ml-[33rem] mb-8 mt-6 dark:text-white text-purple-500">
           Skills
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-1 gap-[2rem] mr-[10rem]">
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-[1.5rem] mr-[6rem]">
           {skills.map((skill, index) => (
             <div key={index} className="w-full ">
               <h3 className="text-sm font-semibold dark:text-gray-300">
@@ -42,7 +42,7 @@ const Skills = () => {
         src={SkillImg}
         alt="Developer Illustration"
         className="w-1/2 "
-        style={{ width: "35rem", height: "35rem" }}
+        style={{ width: "40rem", height: "40rem" }}
       />
     </section>
   );

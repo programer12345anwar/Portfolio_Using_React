@@ -2,10 +2,10 @@ import AboutImg from "../assets/asset 1.png";
 
 const About = () => {
   return (
-    <section id="about" className="bg-white dark:bg-gray-900 py-20 flex px-20">
+    <section id="about" className="bg-white dark:bg-gray-900 py-20 flex px-20 ">
       <img src={AboutImg} alt="Developer Illustration" className="w-1/2" />
       <div className="container mx-auto text-center">
-        <h2 className="text-4xl font-bold mb-6  dark:text-white pb-12 text-purple-500">
+        <h2 className="text-4xl font-bold mb-6 mt-6 dark:text-white pb-12 text-purple-500">
           About Me
         </h2>
         <p className="max-w-2xl mx-auto text-gray-600 dark:text-gray-300 mb-6 text-justify">

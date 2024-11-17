@@ -6,7 +6,7 @@ import "@fontsource/poppins/700.css";
 
 const Header = ({ darkMode, setDarkMode }) => {
   return (
-    <header className="bg-white z-20 dark:bg-gray-900 shadow-md py-4 px-[10rem] fixed">
+    <header className="bg-white z-20 dark:bg-gray-900 shadow-md py-4 px-[10rem] fixed w-[100%]">
       <div className="container flex items-center">
          <img src="./src/assets/logo.png" alt="logo " width={"50px"} height={"50px"} />
         
