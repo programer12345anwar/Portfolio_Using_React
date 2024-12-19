@@ -7,14 +7,15 @@ const Header = ({ darkMode, setDarkMode }) => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white z-20 dark:bg-gray-900 shadow-md py-4 px-6 md:px-[10rem] fixed w-full">
+    <header className="bg-white z-20 dark:bg-gray-900 shadow-md py-4 px-6 md:px-[10rem]  fixed w-[100%] ">
       <div className="container flex items-center justify-between">
         {/* Logo */}
         <img
-          src="./images/logo.jpg" // Ensure the correct path to your logo image
+          src="./images/logo11.png"  
           alt="logo"
           width={"50px"}
           height={"50px"}
+          className="logo text-black dark:text-white"
         />
 
         {/* Hamburger Menu Toggle (Mobile) */}

@@ -1,17 +1,17 @@
 import { useState } from "react";
-import p1 from "../assets/asset 3.png";
+import p1 from "../assets/Ecommerce.png";
 import p2 from "../assets/asset 4.png";
 import p3 from "../assets/asset 6.png";
-import p4 from "../assets/asset 7.png";
-import p5 from "../assets/asset 8.png";
+//import p4 from "../assets/asset 7.png";
+import p5 from "../assets/Todo.png";
 import { FaLink } from "react-icons/fa";
 
 // Sample portfolio data
 const portfolioData = [
-  { id: 1, title: "Project 1", category: "Website", image: p1 },
+  { id: 1, title: "Project 1", category: "Website", image: p5},
   { id: 2, title: "Project 2", category: "Application", image: p2 },
   { id: 3, title: "Project 3", category: "Website", image: p3 },
-  { id: 4, title: "Project 4", category: "Application", image: p4 },
+  { id: 4, title: "Project 4", category: "Application", image: p1 },
   { id: 5, title: "Project 5", category: "Website", image: p5 },
 ];
 
@@ -67,7 +67,7 @@ const Project = () => {
                 />
                 {hoveredItem === item.id && (
                   <a
-                    href="https://www.google.com"
+                    href="https://todo-app-henna-zeta.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="absolute inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50 text-white text-xl font-bold cursor-pointer transition-opacity duration-300 z-10"
