@@ -16,16 +16,17 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="bg-white px-[13rem] dark:bg-gray-900 py-20 flex"
+      className="bg-white dark:bg-gray-900 py-10 px-6 md:py-20 md:px-20 flex flex-col md:flex-row items-center"
     >
-      <div className="container ">
-        <h2 className="text-4xl font-bold ml-[33rem] mb-8 mt-6 dark:text-white text-purple-500">
+      {/* Skills Section */}
+      <div className="w-full md:w-1/2">
+        <h2 className="text-3xl md:text-4xl font-bold text-center md:text-left mb-8 text-purple-500 dark:text-white">
           Skills
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-1 gap-[1.5rem] mr-[6rem]">
+        <div className="grid grid-cols-1 gap-4">
           {skills.map((skill, index) => (
-            <div key={index} className="w-full ">
-              <h3 className="text-sm font-semibold dark:text-gray-300">
+            <div key={index} className="w-full">
+              <h3 className="text-sm font-semibold text-gray-800 dark:text-gray-300">
                 {skill.name}
               </h3>
               <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
@@ -38,12 +39,15 @@ const Skills = () => {
           ))}
         </div>
       </div>
-      <img
-        src={SkillImg}
-        alt="Developer Illustration"
-        className="w-1/2 "
-        style={{ width: "40rem", height: "40rem" }}
-      />
+
+      {/* Image Section */}
+      <div className="w-full md:w-1/2 flex justify-center mt-6 md:mt-0">
+        <img
+          src={SkillImg}
+          alt="Developer Illustration"
+          className="w-3/4 md:w-full max-w-xs md:max-w-md"
+        />
+      </div>
     </section>
   );
 };

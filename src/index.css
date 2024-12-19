@@ -1,15 +1,21 @@
- 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 /* Hide scrollbar */
 .scrollbar-hide {
-    -ms-overflow-style: none;  /* Internet Explorer 10+ */
-    scrollbar-width: none;  /* Firefox */
-  }
-  .scrollbar-hide::-webkit-scrollbar {
-    display: none;  /* Safari and Chrome */
-  }
-  body {
-    font-family: "Poppins";
-  }
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+body {
+  font-family: "Poppins";
+}
+/* .container{
+     
+    justify-content: center;
+    display:flex;
+    margin: 20px;
+    flex-direction: column;
+  } */
