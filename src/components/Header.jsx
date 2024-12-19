@@ -11,7 +11,7 @@ const Header = ({ darkMode, setDarkMode }) => {
       <div className="container flex items-center justify-between">
         {/* Logo */}
         <img
-          src="./src/assets/logo.png"
+          src="./images/logo.jpg" // Ensure the correct path to your logo image
           alt="logo"
           width={"50px"}
           height={"50px"}
@@ -20,7 +20,7 @@ const Header = ({ darkMode, setDarkMode }) => {
         {/* Hamburger Menu Toggle (Mobile) */}
         <button
           onClick={() => setMenuOpen(!menuOpen)}
-          className="text-2xl md:hidden focus:outline-none"
+          className="text-2xl md:hidden focus:outline-none text-gray-700 dark:text-white"
           aria-label="Toggle Menu"
         >
           {menuOpen ? <FaTimes /> : <FaBars />}
@@ -118,4 +118,3 @@ Header.propTypes = {
 };
 
 export default Header;
-
