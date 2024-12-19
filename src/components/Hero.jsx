@@ -46,7 +46,7 @@ const Hero = () => {
           <h2 className="text-xl sm:text-2xl font-semibold mt-2 text-gray-800 dark:text-gray-300">
             Java Full Stack Developer
           </h2>
-          <p className="mt-4 text-gray-600 dark:text-gray-400">
+          <p className="mt-4 text-gray-600 dark:text-gray-400 w-full md:w-3/4">
             I have a passion for coding and love to create innovative solutions.
             I have a strong foundation in Java, Spring Boot, and MySQL.
           </p>

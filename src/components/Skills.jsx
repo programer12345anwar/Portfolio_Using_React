@@ -20,7 +20,7 @@ const Skills = () => {
     >
       {/* Skills Section */}
       <div className="w-full md:w-1/2">
-        <h2 className="text-3xl md:text-4xl font-bold text-center md:text-left mb-8 text-purple-500 dark:text-white">
+        <h2 className="text-3xl md:text-4xl font-bold text-center md:text-left mb-4 text-purple-500 dark:text-white">
           Skills
         </h2>
         <div className="grid grid-cols-1 gap-4">

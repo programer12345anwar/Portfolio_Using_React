@@ -2,7 +2,7 @@ const Contact = () => {
   return (
     <section id="contact" className="bg-white dark:bg-gray-900 py-20 ">
       <div className="container mx-auto">
-        <h2 className="text-4xl font-bold text-center mb-8 dark:text-white">
+        <h2 className="text-4xl font-bold text-center mb-8 text-purple-500 dark:text-white">
           Contact
         </h2>
         <form className="max-w-xl mx-auto space-y-6 ">
