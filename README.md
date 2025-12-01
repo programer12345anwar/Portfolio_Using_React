@@ -2,7 +2,7 @@
 
 A modern, responsive personal portfolio website built using React to showcase projects, skills, and achievements. Currently, it is a static UI-based portfolio, with future plans to integrate backend features such as message handling and contact forms.
 
-<img width="1920" height="3787" alt="screencapture-localhost-5173-2025-12-01-19_36_11" src="https://github.com/user-attachments/assets/02aebd0f-fc37-4218-9b4f-90752c982240" />
+<img width="1920" height="1500" alt="screencapture-localhost-5173-2025-12-01-19_36_11" src="https://github.com/user-attachments/assets/02aebd0f-fc37-4218-9b4f-90752c982240" />
 
 
 
@@ -17,6 +17,7 @@ https://github.com/programer12345anwar/Portfolio_Using_React
 ✅ Contact page UI (frontend only)
 ✅ Clean and simple React architecture
 ✅ Easy to extend with backend support
+✅ Dark and Light Mode
 
 🛠️ Tech Stack
 
