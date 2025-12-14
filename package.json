@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@fontsource/poppins": "^5.1.0",
+    "emailjs-com": "^3.2.0",
     "fontsource-poppins": "^4.0.0",
     "portfolio": "file:",
     "react": "^18.3.1",
